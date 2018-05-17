@@ -1,0 +1,99 @@
+body {
+    background: #03030b;
+}
+.header-pages, main, footer {
+    width: 30%;
+    margin: 0 auto;
+    color: maroon;    
+}
+.header-pages {
+    background: rgb(43, 47, 58);
+    border-radius: 0 0 10px 10px;
+}
+.header-pages nav {
+    margin: 0 auto;
+    padding: 15px;
+}
+.main-container nav {
+    margin-bottom: 20px;
+    background: #f2ebf7;
+}
+
+main {
+    background: rgb(39, 45, 63);
+    color: maroon;    
+}
+
+
+input {
+    margin: 5px;
+}
+.display {
+    background: white;
+    padding: 7px;
+    
+}
+button {
+    color: maroon;
+    background: rgb(10, 9, 34);
+    width: 48px;
+    height: 48px;
+    width: 49px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 16px 8px;
+    text-align: center;
+}
+
+pre {
+    background: rgb(35, 37, 42);
+}
+
+textarea {
+    background: #03030b;
+}
+
+footer {
+    display: block;
+    background: rgb(10, 9, 34);    
+    text-transform: uppercase;
+    flex-basis: 100%;
+    box-sizing: border-box;
+}
+footer div {
+    width: 0 auto;
+    /*margin: 0 auto;*/
+    text-align: center;
+    
+}
+footer ul {
+    text-align: center;
+    list-style: none;
+}
+footer a {
+    color:  white;
+}
+
+@media  (max-width: 480px) {
+    body , footer, .header-pages {
+        box-sizing: border-box;
+    }
+    .header-pages, main, footer {
+        width: 100%;  
+    }
+    .header-pages {
+        margin: 0;
+        width: 100%;
+    }
+    
+    nav a {
+        display: block;
+        border-top: 1px double maroon;
+        border-radius: 15px 15px 0 0;
+        cursor: default;
+        color: white;
+        padding: 7px;
+        margin: 3px;
+    }
+
+}
